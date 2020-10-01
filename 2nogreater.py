@@ -1,7 +1,6 @@
 n=int(input("Enter a number="))
 sum=0
-while n>0:
-    d=n%10
-    sum+=d
+while n!=0:
+    sum+=(n%10) #digit extraction and addition in same line
     n//=10
 print("Sum=",sum)
