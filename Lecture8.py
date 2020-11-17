@@ -41,3 +41,13 @@ for i in d:
 #Store list
 n = {1 : [1,2,3] , 2 : [4,5,6]}
 print(n)
+
+#Return the list of values of dictionary in sorted order.
+
+value_list = sorted(d.values())
+print(value_list)
+
+#Return the list of keys of dictionary in sorted order.
+
+key_list = sorted(d.keys())
+print(key_list)
